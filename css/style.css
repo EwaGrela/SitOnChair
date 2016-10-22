@@ -1,0 +1,463 @@
+/*CSS reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display:block;
+}
+
+body {
+  line-height:1;
+}
+
+ul, ol {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content:'';
+  content:none;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+/*my Code starts here */
+*{
+box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+width: 100%;
+height: 50px;
+background: black;
+color: white;
+}
+
+.mainWidth {
+width: 1000px;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+#logo {
+text-transform: uppercase;
+width: 670px;
+float: left;	
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 20px;
+word-spacing: 10px;
+font-weight: bold;
+}
+
+span {
+color: #006666;
+}
+
+
+#menu{
+width: 330px;
+}
+
+#menu li {
+list-style-type: none;
+text-transform: uppercase;
+margin-top: 20px;
+font-weight: bold;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+.flexbox {
+display: flex;
+justify-content: space-between;
+}
+
+#uppermostSection {
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 95%, rgba(237,237,237,1) 99%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(36%, rgba(246,246,246,1)), color-stop(89%, rgba(237,237,237,1)), color-stop(95%, rgba(237,237,237,1)), color-stop(99%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 95%, rgba(237,237,237,1) 99%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 95%, rgba(237,237,237,1) 99%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 95%, rgba(237,237,237,1) 99%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 95%, rgba(237,237,237,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+height: 550px;
+
+}
+#blackChair, #lorem {
+margin-top: 100px;
+width: 50%;
+height: 100%;
+display: inline-block;
+float: left;
+position: relative;
+
+}
+
+#black_chair {
+width: 600px;
+height: 450px;
+position:absolute;
+right: 10px;
+top: -50px;
+}
+
+#lorem {
+text-align: center;
+position: relative;
+}
+
+h1 {
+margin-bottom: 20px;
+font-size: 2em;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+p:not(#logoParagraph) {
+line-height: 1.8em;
+padding-left: 10px;
+}
+
+#button {
+position: absolute;
+height:55px;
+width: 200px;
+background: #006666;
+border-radius: 10%;
+left: 150px;
+margin-top: 40px;
+padding-top: 1em;
+text-transform: uppercase;
+color: white;
+font-weight: bold;
+font-size: 1.2em;
+}
+
+#productsSection {
+height: 300px;
+background: white;
+}
+ #box1, #box2, #box3 {
+margin-top: 30px;
+position:relative;
+}
+
+#box1, #box2 {
+margin-right: 20px;
+}
+
+#box3 {
+border: 1px solid #d9d9d9;
+}
+
+h6{
+font-weight: bold;
+padding-top: 10px;
+padding-left: 20px;
+}
+
+.chairName {
+height: 60px;
+width:100%;
+background: rgba(255, 255, 255, 0.5);
+position: absolute;
+bottom: 25px;
+}
+.underline1 {
+width: 100px;   /* tu skończono 15.10 */
+height: 5px;
+color: #006666;
+position: absolute;
+bottom: 35px; 
+}
+
+h3 {
+font-size: 1.3em;
+text-transform: uppercase;
+}
+
+
+
+
+#pricingSection {
+height: 500px;
+width: 100%;
+}
+
+.offer, #offer {
+width: 300px;
+height: 400px;
+margin-top: 50px;
+position: relative;
+}
+
+.offer {
+border: 1px solid  #c5ccd3;
+}
+
+#offer {
+border: 1px solid #006666;
+}
+
+.pricingPart, #pricingPart{
+height: 50%;
+width: 100%;
+position: relative;
+}
+
+.pricingPart {
+background: white;
+color:#9aa6b1;
+}
+
+
+#pricingPart {
+background: #006666;
+color:white;
+}
+
+.biggerCircle, #biggerCircle {
+width: 70px;
+height: 70px;
+border-radius: 100%;
+position: absolute;
+right: 115px;
+top: -40px;
+}
+
+.biggerCircle {
+border: 1px solid  #c5ccd3;
+background: white;
+}
+
+#biggerCircle {
+background: #006666;
+}
+
+ .smallerCircle, #smallerCircle {
+width: 30px;
+height: 30px;
+border-radius: 100%;
+position: absolute;
+right: 19.5px;
+top: 18px;
+}
+
+.smallerCircle {
+background: #a9b3bc;
+}
+
+#smallerCircle {
+background: white;
+}
+
+h4 {
+text-align: center;
+position: absolute;
+top: 35px;
+left: 80px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+#planName {
+color: #006666;
+left: 100px;
+}
+
+.priceCircle, #priceCircle {
+position: absolute;
+width: 100px;
+height: 100px;
+border-radius: 100%;
+right: 100px;
+top: 60px;
+text-align: center;
+padding-top: 25px;
+text-transform: uppercase;
+background: white;
+font-size: 1.2em;
+}
+
+.priceCircle {
+color: #9aa6b1;
+border: 1px solid #c5ccd3;
+}
+
+#priceCircle {
+color:  #006666;
+border: 1px solid #006666;
+}
+
+.offerPart, #offerPart {
+width: 100%;
+height: 50%;
+}
+
+.offerPart {
+background: white;
+color:#9aa6b1;
+}
+
+#offerPart {
+background: #006666;
+color:white;
+}
+
+.offerPart div:not(.joinButton), #offerPart div:not(#joinButton){
+height: 30px;
+width: 100%;
+text-align: center;
+padding-top: 7px;
+}
+
+.offerPart div:nth-child(2n+2):not(.joinButton) {
+background:#e2e6e9;
+color:#a9b3bc;
+}
+
+.offerPart div:nth-child(2n+1){
+background:#f1f2f4;
+color:#9aa6b1;
+}
+
+.joinButton, #joinButton {
+position: absolute;
+text-align: center;
+color: white;
+width: 100px;
+height: 40px;
+border-radius: 5%;
+padding-top: 10px;
+right: 100px;
+bottom: 20px;
+text-transform: uppercase;
+}
+
+.joinButton {
+color:white;
+background:#006666;
+}
+
+#joinButton {
+background:white;
+color:#006666;
+}
+
+#offerPart div:nth-child(2n+2):not(#joinButton){
+background:#e2e6e9;
+color:#a9b3bc;
+}
+
+#offerPart div:nth-child(2n+1){
+background: white;
+color:#9aa6b1;
+}
+
+#formSection {
+height: 400px;
+}
+
+
+form {
+height: 400px;
+}
+
+#formleft {
+width: 66.666666%;
+height: 100%;
+position: relative;
+}
+
+#formright {
+width: 33.33333%;
+height: 100%;
+position: relative;
+}
+
+input:not([type="submit"]){
+width: 100%;
+height: 50px;
+border: 1px solid #006666;
+color:#9aa6b1;
+font-size: 1.2em;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+border-radius: 2%;
+}
+
+textarea {
+width: 100%;
+resize: none;
+height: 100px;
+border: 1px solid #006666;
+color:#9aa6b1;
+font-size: 1.2em;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+border-radius: 2%;
+}
+
+#redChair {
+width: 200px;
+height: 150px;
+right: 50px;
+position:absolute;
+}
+
+input[type="checkbox"] {
+position: absolute;
+width: 50px;
+top: 140px;
+}
+
+label {
+position: absolute;
+top: 160px;
+left:90px;
+}
+
+input[type="submit"] {
+color: white;
+text-align: center;
+width: 250px;
+background: #006666;
+height: 50px;
+padding-top: 7.5px;
+font-size: 1.2em;
+border-radius: 5%;
+position: absolute;
+bottom: 150px;
+left: 90px;
+}
+
+#checkboxPicture {
+position: absolute;
+bottom: 200px;
+left: 20px;
+}
